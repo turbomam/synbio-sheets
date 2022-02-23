@@ -6,8 +6,9 @@ authors = ["Mark Andrew Miller <MAM@lbl.gov>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
 schemasheets = "^0.1.6"
+python = "^3.9"
+dpath = "^2.0.6"
 
 [tool.poetry.dev-dependencies]
 

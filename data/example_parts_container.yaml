@@ -1,0 +1,9 @@
+parts:
+  part1:
+    creator: person:1
+    organism_basis: organism:1
+    pi: person:1
+  part2:
+    creator: person:1
+    organism_basis: organism:1
+    pi: person:1
