@@ -35,13 +35,28 @@ target/synbio_schema_sheet.yaml: .cogs/tracked/schema.tsv .cogs/tracked/prefixes
 	poetry run cogs fetch
 	poetry run sheets2linkml -o $@ $^
 
-DataHarmonizer/template/synbio-sheets/data.tsv:
-	#cd ../sheets_and_friends/target/data.tsv ; poetry run linkml2dataharmonizer --model_file ../synbio-sheets/target/synbio_schema_sheet.yaml --selected_class part
-	cp ../sheets_and_friends/target/data.tsv $@
+DataHarmonizer/template/synbio-sheets/data.tsv: target/synbio_schema_sheet.yaml .cogs/tracked/validation_converter.tsv
+	poetry run linkml2dataharmonizer --model_file $< --selected_class part
+	cp target/data.tsv $@
 
 DataHarmonizer/template/synbio-sheets/data.js: DataHarmonizer/template/synbio-sheets/data.tsv target/felix_parts.tsv
 	cd DataHarmonizer/template/synbio-sheets/ ; poetry run python ../../script/make_data.py
-	# open file:///home/mark/gitrepos/synbio-sheets/DataHarmonizer/main.html?template=synbio-sheets
+	# open this URL in a browser
+	# file:///home/mark/gitrepos/synbio-sheets/DataHarmonizer/main.html?template=synbio-sheets
+	# the DH File-> Open
+	# target/felix_parts.tsv
+	# row 1 has the column headers
+	#
+	#Failed to map OK
+	#    descendants
+	#    external_url
+	#    plasmid_basis
+	#    selection_marker
+	#    sequences
+	#    modifications
+	#    ancestors
+
+
 
 # ./linkml.html LAUNCH THIS
   #./script/main_linkml.js
