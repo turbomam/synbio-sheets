@@ -315,7 +315,7 @@ grpcio-gcp = ["grpcio-gcp (>=0.2.2)"]
 
 [[package]]
 name = "google-api-python-client"
-version = "2.38.0"
+version = "2.39.0"
 description = "Google API Client Library for Python"
 category = "main"
 optional = false
@@ -415,7 +415,7 @@ docs = ["sphinx"]
 
 [[package]]
 name = "gspread"
-version = "5.1.1"
+version = "5.2.0"
 description = "Google Spreadsheets Python API"
 category = "main"
 optional = false
@@ -487,7 +487,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "importlib-metadata"
-version = "4.11.1"
+version = "4.11.2"
 description = "Read metadata from Python packages"
 category = "main"
 optional = false
@@ -497,7 +497,7 @@ python-versions = ">=3.7"
 zipp = ">=0.5"
 
 [package.extras]
-docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
+docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 perf = ["ipython"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "packaging", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)", "importlib-resources (>=1.3)"]
 
@@ -528,7 +528,7 @@ i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "json-flattener"
-version = "0.1.7"
+version = "0.1.9"
 description = "Python library for denormalizing nested dicts or json objects to tables and back"
 category = "main"
 optional = false
@@ -668,7 +668,7 @@ linkml-runtime = ">=1.1.6"
 
 [[package]]
 name = "linkml-runtime"
-version = "1.1.24"
+version = "1.1.26"
 description = "Runtime environment for LinkML, the Linked open data modeling language"
 category = "main"
 optional = false
@@ -678,7 +678,7 @@ python-versions = ">=3.7.1,<4.0.0"
 click = "*"
 deprecated = "*"
 hbreader = "*"
-json-flattener = ">=0.1.7"
+json-flattener = ">=0.1.9"
 jsonasobj2 = ">=1.0.4,<2.0.0"
 jsonschema = ">=3.2.0"
 prefixcommons = "*"
@@ -1552,7 +1552,7 @@ python-versions = "*"
 
 [[package]]
 name = "testfixtures"
-version = "6.18.3"
+version = "6.18.5"
 description = "A collection of helpers and mock objects for unit tests and doc tests."
 category = "main"
 optional = false
@@ -1573,7 +1573,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "tqdm"
-version = "4.62.3"
+version = "4.63.0"
 description = "Fast, Extensible Progress Meter"
 category = "main"
 optional = false
@@ -1799,8 +1799,8 @@ google-api-core = [
     {file = "google_api_core-2.5.0-py2.py3-none-any.whl", hash = "sha256:7d030edbd3a0e994d796e62716022752684e863a6df9864b6ca82a1616c2a5a6"},
 ]
 google-api-python-client = [
-    {file = "google-api-python-client-2.38.0.tar.gz", hash = "sha256:911b3e78981ffb26fa77791a41654d11ac42d863cbc3b7cce992761b826f1a96"},
-    {file = "google_api_python_client-2.38.0-py2.py3-none-any.whl", hash = "sha256:895fd24a5707d4696b754e8cbbd13082087ed6d6e9da43854999faab3e283afc"},
+    {file = "google-api-python-client-2.39.0.tar.gz", hash = "sha256:401169215ecafb5afb683d3fe0e43c059eb625c71fea1929f16403dda72a2dc1"},
+    {file = "google_api_python_client-2.39.0-py2.py3-none-any.whl", hash = "sha256:69c73c2e206995839b2145255e8348bfb28ad825fae4c01e9db36d5856f0c770"},
 ]
 google-auth = [
     {file = "google-auth-2.6.0.tar.gz", hash = "sha256:ad160fc1ea8f19e331a16a14a79f3d643d813a69534ba9611d2c80dc10439dad"},
@@ -1875,8 +1875,8 @@ greenlet = [
     {file = "greenlet-1.1.2.tar.gz", hash = "sha256:e30f5ea4ae2346e62cedde8794a56858a67b878dd79f7df76a0767e356b1744a"},
 ]
 gspread = [
-    {file = "gspread-5.1.1-py3-none-any.whl", hash = "sha256:ffba57786e27519fb97125e3de37a0f062134a396506681f5baacaf47a9febe3"},
-    {file = "gspread-5.1.1.tar.gz", hash = "sha256:d9db8c43d552f541ea072d4727d1e955bc2368b095dd86c5429a845c9d8aed8f"},
+    {file = "gspread-5.2.0-py3-none-any.whl", hash = "sha256:05297b49587b5e89c2a0aa39967f43e5b7f170b62c11ddd43214baa1085131a8"},
+    {file = "gspread-5.2.0.tar.gz", hash = "sha256:25173ac081469cf9d621514c6576c6cf46f39c825f178b8cb9e78374a637b0bf"},
 ]
 gspread-formatting = [
     {file = "gspread-formatting-1.0.6.tar.gz", hash = "sha256:d895e4a645627ccb020b56a859627aa049b01e42ba4ccfce94ce5ad742967b4c"},
@@ -1903,8 +1903,8 @@ imagesize = [
     {file = "imagesize-1.3.0.tar.gz", hash = "sha256:cd1750d452385ca327479d45b64d9c7729ecf0b3969a58148298c77092261f9d"},
 ]
 importlib-metadata = [
-    {file = "importlib_metadata-4.11.1-py3-none-any.whl", hash = "sha256:e0bc84ff355328a4adfc5240c4f211e0ab386f80aa640d1b11f0618a1d282094"},
-    {file = "importlib_metadata-4.11.1.tar.gz", hash = "sha256:175f4ee440a0317f6e8d81b7f8d4869f93316170a65ad2b007d2929186c8052c"},
+    {file = "importlib_metadata-4.11.2-py3-none-any.whl", hash = "sha256:d16e8c1deb60de41b8e8ed21c1a7b947b0bc62fab7e1d470bcdf331cea2e6735"},
+    {file = "importlib_metadata-4.11.2.tar.gz", hash = "sha256:b36ffa925fe3139b2f6ff11d6925ffd4fa7bc47870165e3ac260ac7b4f91e6ac"},
 ]
 isodate = [
     {file = "isodate-0.6.1-py2.py3-none-any.whl", hash = "sha256:0751eece944162659049d35f4f549ed815792b38793f07cf73381c1c87cbed96"},
@@ -1915,8 +1915,8 @@ jinja2 = [
     {file = "Jinja2-3.0.3.tar.gz", hash = "sha256:611bb273cd68f3b993fabdc4064fc858c5b47a973cb5aa7999ec1ba405c87cd7"},
 ]
 json-flattener = [
-    {file = "json_flattener-0.1.7-py3-none-any.whl", hash = "sha256:af41c05fb15b6b9881faa95191e942e1387e305574b2269ebbecb4289173395b"},
-    {file = "json_flattener-0.1.7.tar.gz", hash = "sha256:9a3d7c45e0b3636268efdb1a9d78734f0573e2a05ec4f00b6a677c69a63d1e3f"},
+    {file = "json_flattener-0.1.9-py3-none-any.whl", hash = "sha256:6b027746f08bf37a75270f30c6690c7149d5f704d8af1740c346a3a1236bc941"},
+    {file = "json_flattener-0.1.9.tar.gz", hash = "sha256:84cf8523045ffb124301a602602201665fcb003a171ece87e6f46ed02f7f0c15"},
 ]
 jsonasobj = [
     {file = "jsonasobj-2.0.1-py3-none-any.whl", hash = "sha256:221af946bbe4171505e81ea1f0c31d652e69c68e02fff742e37543abe08ff7d9"},
@@ -1952,8 +1952,8 @@ linkml-dataops = [
     {file = "linkml_dataops-0.1.0.tar.gz", hash = "sha256:4550eab65e78b70dc3b9c651724a94ac2b1d1edb2fbe576465f1d6951a54ed04"},
 ]
 linkml-runtime = [
-    {file = "linkml_runtime-1.1.24-py3-none-any.whl", hash = "sha256:c2960240e4c281a05927c5b00517eda70fa331036aec6a0a7a9b9f15479f90a9"},
-    {file = "linkml_runtime-1.1.24.tar.gz", hash = "sha256:c5eab0890821d5e29940f6dc3b583cc0b11ba3338fec68a30b13b2880d557dfa"},
+    {file = "linkml_runtime-1.1.26-py3-none-any.whl", hash = "sha256:af4b27a0e29dfdb64143c0db5f26763e1aad6895bc8f185a57a28fde7e529032"},
+    {file = "linkml_runtime-1.1.26.tar.gz", hash = "sha256:bc4b8aaa6a2ad12a4b750bca7aecf6b28b39e080dfbd66838ab915adc560fe38"},
 ]
 lxml = [
     {file = "lxml-4.8.0-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:e1ab2fac607842ac36864e358c42feb0960ae62c34aa4caaf12ada0a1fb5d99b"},
@@ -2532,16 +2532,16 @@ termcolor = [
     {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
 ]
 testfixtures = [
-    {file = "testfixtures-6.18.3-py2.py3-none-any.whl", hash = "sha256:6ddb7f56a123e1a9339f130a200359092bd0a6455e31838d6c477e8729bb7763"},
-    {file = "testfixtures-6.18.3.tar.gz", hash = "sha256:2600100ae96ffd082334b378e355550fef8b4a529a6fa4c34f47130905c7426d"},
+    {file = "testfixtures-6.18.5-py2.py3-none-any.whl", hash = "sha256:7de200e24f50a4a5d6da7019fb1197aaf5abd475efb2ec2422fdcf2f2eb98c1d"},
+    {file = "testfixtures-6.18.5.tar.gz", hash = "sha256:02dae883f567f5b70fd3ad3c9eefb95912e78ac90be6c7444b5e2f46bf572c84"},
 ]
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
 ]
 tqdm = [
-    {file = "tqdm-4.62.3-py2.py3-none-any.whl", hash = "sha256:8dd278a422499cd6b727e6ae4061c40b48fce8b76d1ccbf5d34fca9b7f925b0c"},
-    {file = "tqdm-4.62.3.tar.gz", hash = "sha256:d359de7217506c9851b7869f3708d8ee53ed70a1b8edbba4dbcb47442592920d"},
+    {file = "tqdm-4.63.0-py2.py3-none-any.whl", hash = "sha256:e643e071046f17139dea55b880dc9b33822ce21613b4a4f5ea57f202833dbc29"},
+    {file = "tqdm-4.63.0.tar.gz", hash = "sha256:1d9835ede8e394bb8c9dcbffbca02d717217113adc679236873eeaac5bc0b3cd"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.1.1-py3-none-any.whl", hash = "sha256:21c85e0fe4b9a155d0799430b0ad741cdce7e359660ccbd8b530613e8df88ce2"},
